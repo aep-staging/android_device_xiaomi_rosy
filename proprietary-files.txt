@@ -1313,8 +1313,6 @@ lib/libmmparser_lite.so|8178e82b5de51f7292ad738ff66034459d4b7ffa
 lib/libOmxMux.so|35fc6a701ad6f983b2df886349064a9d1ad9143c
 lib64/libmmosal.so|f2ec52d5ff321b7064dd6102a0ebc7914c11b7c9
 -vendor/lib/libgpustats.so|1ebe49e75a0d02e6662108650d15d8dbc988ee64
-vendor/lib/libI420colorconvert.so|0dfd4d0e49f4250e98e781483048a296a679e05e
-vendor/lib/libmm-color-convertor.so|7c74d36d42dc79fc58afe0f4323b76cc1297d36e
 vendor/lib/libmmosal_proprietary.so|b6e3733e84031c17dc408808ae70fb05fc087374
 vendor/lib/libOmxAacDec.so|1ad71e69b0311d278b5aad0d9d1163983c3faeef
 vendor/lib/libOmxAlacDec.so|887e641f7ecd32eba21de6e0f962053072099be1
