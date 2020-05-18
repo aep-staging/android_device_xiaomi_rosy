@@ -164,10 +164,6 @@ persist.vendor.mwqem.enable=1
 PRODUCT_PROPERTY_OVERRIDES += \
 drm.service.enabled=true
 
-# Ecnryption
-PRODUCT_PROPERTY_OVERRIDES += \
-ro.crypto.volume.contents_mode=aes-256-xts
-
 # Fingerprint
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.qfp=false
