@@ -18,6 +18,9 @@ VNDK_SP_LIBRARIES := \
 install_in_hw_dir := \
    android.hidl.memory@1.0-impl
 
+EXTRA_VENDOR_LIBRARIES := \
+    vendor.qti.hardware.btconfigstore@1.0
+
 vndk_sp_dir := vndk-sp-$(PLATFORM_VNDK_VERSION)
 
 define define-vndk-lib
