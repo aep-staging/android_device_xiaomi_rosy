@@ -63,13 +63,12 @@ vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp|921ca227bc413a69c1ff0075f0a20c7f0
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|2401640a10df4de23f704b87c4adab2da9ed111d
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|f4ee3b2da2b08647447869ade86ec63f7340accc
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|ac8fc564725903dc1d945fc1fc55191a984e47bf
-vendor/lib64/libbt-hidlclient.so|1491414e874419d2df1529c511bd48e348cf53a8
-vendor/lib64/libbtnv.so|07e031527e60ce5e62a5017fd1d7ff83ef1aafcf
 
 # Bluetooth (audio) - from LA.UM.9.6.2.r1-03600-89xx.0
-vendor/lib64/hw/audio.bluetooth_qti.default.so|e628e65d5c07c81ff96783217f8aaf46702aa992
-vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|b66dd9afad70780943187074abb332f84c6734d7
-vendor/lib64/libbluetooth_audio_session_qti.so|9260e1e8011a68205474299dbb10ffcfeb34ee3a
+vendor/lib64/libbtnv.so|82cc941c6a262e0965925b4955b1ea508b798bfa
+vendor/lib64/libbt-hidlclient.so|58caa4b8fac26ae5011c6439a1aff71f0a14a9a3
+vendor/lib64/libsoc_helper.so|affbc1cc49d3df3a6e174a21bf3fe79c7130d1c0
+vendor/lib64/vendor.qti.hardware.fm@1.0.so|a7c3fdcdfdf2d982b04baa89e0e4dc5f5d505bf7
 
 # Bluetooth (Configstore) - from LA.UM.9.6.2.r1-03600-89xx.0
 vendor/lib64/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so|0abafcc0c404b67bb0d87128a87cc9deabe54935
@@ -1108,7 +1107,6 @@ vendor/etc/qdcm_calib_data_ft8613_ebbg_5p7_720p_video.xml|5d2e49b80dffa42e281b93
 # FM - from LA.UM.9.6.2.r1-03600-89xx.0
 system_ext/lib64/fm_helium.so|55ef376cc802574df92025bebaba1cebcc74a918
 system_ext/lib64/libfm-hci.so|0cfbf3d84724428721973cc7ad22f5d1e1368591
-system_ext/lib64/vendor.qti.hardware.fm@1.0.so|4a2522113d6b737a87d3b43233f1afa94d9e45ad
 vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|66c50040a46dfa7fcefda85ddd009bff2b76f6b8
 vendor/lib64/vendor.qti.hardware.fm@1.0.so|17e86e9a2054db733d955fcf1066f6e06a44fb21
 
