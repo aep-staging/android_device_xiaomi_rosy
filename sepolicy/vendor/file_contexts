@@ -20,6 +20,9 @@
 /firmware(/.*)?                                 u:object_r:firmware_file:s0
 /persist(/.*)?                                  u:object_r:mnt_vendor_file:s0
 
+# Light HAL
+/(vendor|system/vendor)/bin/hw/android\.hardware\.lights-service\.xiaomi u:object_r:hal_light_default_exec:s0
+
 # Power HAL
 /vendor/bin/hw/android\.hardware\.power-service\.rosy-libperfmgr                 u:object_r:hal_power_default_exec:s0
 /sys/devices/virtual/graphics/fb0/idle_state                                     u:object_r:sysfs_idle_state:s0
