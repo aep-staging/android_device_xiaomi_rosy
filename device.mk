@@ -317,15 +317,17 @@ PRODUCT_PACKAGES += \
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \
-    init.goodix.sh \
     init.msm.usb.configfs.rc \
-    init.qcom.post_boot.sh \
     init.qcom.rc \
-    init.qcom.sh \
     init.qcom.usb.rc \
     init.rosy.rc \
     init.target.rc \
     ueventd.qcom.rc
+
+PRODUCT_PACKAGES += \
+    init.goodix.sh \
+    init.qcom.sh \
+    init.qcom.post_boot.sh
 
 # RenderScript HAL
 PRODUCT_PACKAGES += \
