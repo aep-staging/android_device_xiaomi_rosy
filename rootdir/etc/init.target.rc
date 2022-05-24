@@ -48,7 +48,7 @@ on late-fs
     start servicemanager
     start surfaceflinger
     start bootanim
-
+    start vendor.hwcomposer-2-1
     start vendor.configstore-hal
     start vendor.gralloc-2-0
 
