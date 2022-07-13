@@ -86,6 +86,16 @@
         </interface>
     </hal>
     <hal format="hidl" optional="true">
+        <name>vendor.lineage.fastcharge</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IFastCharge</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@1.0::IFastCharge/default</fqname>
+    </hal>
+    <hal format="hidl" optional="true">
         <name>vendor.lineage.touch</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
