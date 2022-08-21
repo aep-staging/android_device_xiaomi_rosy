@@ -1,3 +1,7 @@
+#============= property ==============
+# Camera
+vendor_restricted_prop(vendor_boardid_prop)
+
 # fingerprint prop
 vendor_public_prop(hal_fingerprint_prop);
 
