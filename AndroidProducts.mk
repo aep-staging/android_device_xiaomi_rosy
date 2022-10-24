@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_rosy.mk
+    $(LOCAL_DIR)/awaken_rosy.mk
+
+COMMON_LUNCH_CHOICES := \
+    awaken_rosy-user \
+    awaken_rosy-userdebug \
+    awaken_rosy-eng
