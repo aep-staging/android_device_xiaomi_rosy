@@ -48,7 +48,20 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --tags_offset 0x00000100
 TARGET_KERNEL_VERSION := 4.9
 TARGET_KERNEL_CONFIG := rosy-perf_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/rosy
-TARGET_KERNEL_NEW_GCC_COMPILE := true
+#TARGET_KERNEL_NEW_GCC_COMPILE := true
+#KERNEL_MAKE_FLAGS += CPATH="/usr/include:/usr/include/x86_64-linux-gnu"
+#HOSTCFLAGS="-fuse-ld=lld"
+#HOSTLDFLAGS="-L/usr/lib/x86_64-linux-gnu -L/usr/lib64 -fuse-ld=lld"
+TARGET_KERNEL_CLANG_COMPILE := true
+TARGET_KERNEL_CLANG_VERSION := atiga
+KERNEL_MAKE_FLAGS += CC=clang
+KERNEL_MAKE_FLAGS += CXX=clang++
+KERNEL_MAKE_FLAGS += CROSS_COMPILE=aarch64-linux-gnu-
+KERNEL_MAKE_FLAGS += CROSS_COMPILE_ARM32=arm-linux-gnueabi-
+KERNEL_MAKE_FLAGS += AR=llvm-ar NM=llvm-nm
+KERNEL_MAKE_FLAGS += OBJCOPY=llvm-objcopy
+KERNEL_MAKE_FLAGS += OBJDUMP=llvm-objdump
+KERNEL_MAKE_FLAGS += STRIP=llvm-strip
 
 # ANT
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"

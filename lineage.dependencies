@@ -1,7 +1,7 @@
 [
    {
       "remote":"gitlab",
-      "branch":"master",
+      "branch":"16.x",
       "repository":"aepranata/atiga-clang",
       "target_path":"prebuilts/clang/host/linux-x86/clang-atiga"
    }
