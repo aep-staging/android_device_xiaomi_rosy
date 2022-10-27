@@ -84,5 +84,15 @@
             <name>IQccsyshal</name>
             <instance>qccsyshal</instance>
         </interface>
-   </hal>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.lineage.touch</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>ITouchscreenGesture</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@1.0::ITouchscreenGesture/default</fqname>
+    </hal>
 </compatibility-matrix>
