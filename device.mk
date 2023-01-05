@@ -15,6 +15,7 @@
 #
 
 $(call inherit-product, vendor/xiaomi/rosy/rosy-vendor.mk)
+$(call inherit-product-if-exists, vendor/xiaomi/miuicamera/device.mk)
 
 # Use a profile based boot image for this device. Note that this is currently a
 # generic profile and not Android Go optimized.
