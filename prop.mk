@@ -319,3 +319,8 @@ media.wfd.max_resolution=5
 # USAP
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 persist.device_config.runtime_native.usap_pool_enabled=true
+
+# Project-Elixir
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.elixir.maintainer=aepranata \
+org.elixir.device=Redmi 5

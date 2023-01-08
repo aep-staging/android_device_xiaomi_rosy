@@ -9,18 +9,22 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk)
 
-# Inherit some common BananaDroid stuff
-$(call inherit-product, vendor/banana/config/common.mk)
+# Inherit some common Project-Exilir stuff
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
+IS_PHONE := true
 TARGET_BOOT_ANIMATION_RES := 720
-BANANA_MAINTAINER := aepranata
 TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_INCLUDE_STOCK_ACORE := false
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
+TARGET_SUPPORTS_GOOGLE_RECORDER := false
+TARGET_SUPPORTS_QUICK_TAP := true
 
 # Inherit from rosy device
 $(call inherit-product, device/xiaomi/rosy/device.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := banana_rosy
+PRODUCT_NAME := aosp_rosy
 PRODUCT_DEVICE := rosy
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 5
