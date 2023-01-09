@@ -378,6 +378,15 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     $(LOCAL_PATH)/configs/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf
 
+# SettingsIntelligenceGoogle
+PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
+
+PRODUCT_PACKAGES += \
+    SettingsIntelligenceGoogle
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/intelligence/config/permissions/privapp-permissions-rosy-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-rosy-product.xml
+
 # Shims
 PRODUCT_PACKAGES += \
     libbinder_gdxfp \
