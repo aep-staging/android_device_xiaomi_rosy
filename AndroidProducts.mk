@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_rosy.mk
+    $(LOCAL_DIR)/nad_rosy.mk
+
+COMMON_LUNCH_CHOICES := \
+    nad_rosy-user \
+    nad_rosy-userdebug \
+    nad_rosy-eng

@@ -1,0 +1,26 @@
+[
+    {
+        "remote": "github",
+        "branch": "13",
+        "repository": "bananadroid-devices/android_kernel_xiaomi_rosy",
+        "target_path": "kernel/xiaomi/rosy"
+    },
+    {
+        "remote": "github",
+        "branch": "13",
+        "repository": "bananadroid-devices/android_vendor_xiaomi_rosy",
+        "target_path": "vendor/xiaomi/rosy"
+    },
+    {
+        "remote": "gitlab",
+        "repository" : "ImSurajxD/clang-r450784d",
+        "target_path": "prebuilts/clang/host/linux-x86/clang-r450784d",
+        "branch"     : "master"
+    },
+    {
+        "remote": "gitlab",
+        "repository" : "aepranata/atiga-clang",
+        "target_path": "prebuilts/clang/host/linux-x86/clang-atiga"
+        "branch"     : "master"
+    }
+]
