@@ -23,7 +23,7 @@ TARGET_OPTOUT_GOOGLE_TELEPHONY := false
 TARGET_BUILD_GRAPHENEOS_CAMERA := true
 ifneq (,$(WITH_GMS))
     TARGET_CORE_GMS := true
-    TARGET_CORE_GMS_EXTRAS := false
+    TARGET_CORE_GMS_EXTRAS := true
 endif
 
 # Inherit from rosy device
