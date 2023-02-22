@@ -268,7 +268,7 @@ PRODUCT_PACKAGES += \
 
 # Light
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.xiaomi_rosy
+    android.hardware.light-service.xiaomi_rosy
 
 # Media
 PRODUCT_COPY_FILES += \
