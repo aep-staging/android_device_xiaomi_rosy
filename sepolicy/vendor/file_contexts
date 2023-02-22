@@ -16,12 +16,12 @@
 /dev/spidev6\.1				u:object_r:spidev_file:s0
 /dev/spidev7\.1				u:object_r:spidev_file:s0
 
+# Light HAL
+/vendor/bin/hw/android\.hardware\.light-service\.xiaomi_rosy u:object_r:hal_light_default_exec:s0
+
 # Legacy root dirs
 /firmware(/.*)?                                 u:object_r:firmware_file:s0
 /persist(/.*)?                                  u:object_r:mnt_vendor_file:s0
-
-# Light HAL
-/(vendor|system/vendor)/bin/hw/android\.hardware\.lights-service\.xiaomi u:object_r:hal_light_default_exec:s0
 
 # Power HAL
 /vendor/bin/hw/android\.hardware\.power-service\.rosy-libperfmgr                 u:object_r:hal_power_default_exec:s0
