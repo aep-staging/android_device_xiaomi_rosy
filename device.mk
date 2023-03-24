@@ -396,10 +396,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service.basic
 
-# VNDK
-PRODUCT_PACKAGES += \
-    vndk-sp
-
 # Thermal
 PRODUCT_PACKAGES += \
     thermal.msm8953
